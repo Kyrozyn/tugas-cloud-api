@@ -8,5 +8,7 @@
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
 <a href="#" onclick="signOut();">Sign out</a>
 </body>
-
+<script>
+checkIsLoggedIn()
+</script>
 </html>

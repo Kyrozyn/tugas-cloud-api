@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a2c886a-1b56-4124-8835-dec5b7788e19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/foo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/loggedin.php" afterDir="false" />
+    <list default="true" id="0a2c886a-1b56-4124-8835-dec5b7788e19" name="Default Changelist" comment="test logout">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/foo.js" beforeDir="false" afterPath="$PROJECT_DIR$/foo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -55,7 +54,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576040392025</updated>
-      <workItem from="1576040393587" duration="3990000" />
+      <workItem from="1576040393587" duration="4434000" />
     </task>
     <task id="LOCAL-00001" summary="test logout">
       <created>1576041367981</created>
@@ -92,7 +91,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576066942502</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="test logout">
+      <created>1576067525625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576067525629</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
