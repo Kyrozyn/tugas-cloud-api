@@ -17,13 +17,30 @@ function ifloggedIn() {
     var auth2 = gapi.auth2.getAuthInstance();
     if (!auth2.isSignedIn.get()) {
         console.log('sedang tidak login');
-        return;
+        return false;
     }
     else{
+        return true;
         console.log('sedang login')
+    }
+}
+
+function protect(){
+    if (!ifloggedIn()){
+        redirectToLogin();
+    }
+}
+
+function protectLogin(){
+    if(ifloggedIn()){
+        redirectToIndex();
     }
 }
 
 function redirectToIndex(){
     window.location.replace('loggedin.php');
+}
+
+function redirectToLogin(){
+    window.location.replace('index.php');
 }

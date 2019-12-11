@@ -8,5 +8,7 @@
 hai, kamu sudah login<br>
 <a href="#" onclick="signOut();">Sign out</a>
 </body>
-
-</html><?php
+<script>
+    protect();
+</script>
+</html>

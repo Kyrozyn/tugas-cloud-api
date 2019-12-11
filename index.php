@@ -10,6 +10,6 @@
 <a href="#" onclick="ifloggedIn();">Check login</a>
 </body>
 <script>
-
+protectLogin();
 </script>
 </html>

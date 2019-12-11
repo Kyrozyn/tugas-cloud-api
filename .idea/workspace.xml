@@ -5,6 +5,7 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/foo.js" beforeDir="false" afterPath="$PROJECT_DIR$/foo.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/loggedin.php" beforeDir="false" afterPath="$PROJECT_DIR$/loggedin.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -54,7 +55,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576040392025</updated>
-      <workItem from="1576040393587" duration="5236000" />
+      <workItem from="1576040393587" duration="5484000" />
     </task>
     <task id="LOCAL-00001" summary="test logout">
       <created>1576041367981</created>
@@ -112,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576068683910</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="check login">
+      <created>1576068766866</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576068766866</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -132,6 +140,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="test logout" />
     <MESSAGE value="check login" />
-    <option name="LAST_COMMIT_MESSAGE" value="check login" />
+    <MESSAGE value="test protect" />
+    <option name="LAST_COMMIT_MESSAGE" value="test protect" />
   </component>
 </project>
