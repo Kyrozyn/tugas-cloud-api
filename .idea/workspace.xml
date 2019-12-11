@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0a2c886a-1b56-4124-8835-dec5b7788e19" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
     </list>
@@ -52,8 +51,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576040392025</updated>
-      <workItem from="1576040393587" duration="919000" />
+      <workItem from="1576040393587" duration="1254000" />
     </task>
+    <task id="LOCAL-00001" summary="test logout">
+      <created>1576041367981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576041367987</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -69,5 +76,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="test logout" />
+    <option name="LAST_COMMIT_MESSAGE" value="test logout" />
   </component>
 </project>

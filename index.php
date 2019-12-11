@@ -17,6 +17,10 @@
         console.log('Image URL: ' + profile.getImageUrl());
         console.log('Email: ' + profile.getEmail()); // This is null if the 'email' scope is not present.
     }
+    function onSuccess(googleUser){
+        var profile = googleUser.getBasicProfile();
+        alert('Selamat Datang, '+profile.getName());
+    }
 
     function signOut() {
         var auth2 = gapi.auth2.getAuthInstance();
