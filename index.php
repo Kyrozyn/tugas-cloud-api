@@ -6,9 +6,19 @@
 </head>
 <body>
 <div class="g-signin2" data-onsuccess="onSignIn"></div>
-<a href="#" onclick="signOut();">Sign out</a>
+<a href="#" onclick="signOut();">Sign out</a><br>
+<a href="#" onclick="ifloggedIn();">Check login</a>
 </body>
 <script>
-checkIsLoggedIn()
+    function ifloggedIn() {
+        var auth2 = gapi.auth2.getAuthInstance();
+        if (!auth2.isSignedIn.get()) {
+            console.log('sedang tidak login');
+            return;
+        }
+        else{
+            console.log('sedang login')
+        }
+    }
 </script>
 </html>
