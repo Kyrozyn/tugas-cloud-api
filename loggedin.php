@@ -5,8 +5,8 @@
     <script src="foo.js"></script>
 </head>
 <body>
-<div class="g-signin2" data-onsuccess="onSignIn"></div>
+hai, kamu sudah login<br>
 <a href="#" onclick="signOut();">Sign out</a>
 </body>
 
-</html>
+</html><?php
