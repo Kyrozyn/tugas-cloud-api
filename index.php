@@ -10,15 +10,6 @@
 <a href="#" onclick="ifloggedIn();">Check login</a>
 </body>
 <script>
-    function ifloggedIn() {
-        var auth2 = gapi.auth2.getAuthInstance();
-        if (!auth2.isSignedIn.get()) {
-            console.log('sedang tidak login');
-            return;
-        }
-        else{
-            console.log('sedang login')
-        }
-    }
+
 </script>
 </html>
