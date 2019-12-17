@@ -25,7 +25,7 @@ $results = animeSearch($title);
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                 </ul>
             </div>
         </div>
