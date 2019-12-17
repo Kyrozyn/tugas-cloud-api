@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0a2c886a-1b56-4124-8835-dec5b7788e19" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/foo.js" beforeDir="false" afterPath="$PROJECT_DIR$/foo.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/loggedin.php" beforeDir="false" afterPath="$PROJECT_DIR$/loggedin.php" afterDir="false" />
-    </list>
+    <list default="true" id="65b3aacf-ffaf-4f64-8a04-d74d46674e22" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,14 +16,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Up4qEk2EG3shNfckMhzU9KNOHi" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\xampp\htdocs\nimesearch\.idea" />
+      </set>
+    </option>
   </component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="PHP 7.3" />
+  <component name="ProjectId" id="1V6diGOC62i3HmL7WRUNx4SOVss" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
@@ -45,82 +45,28 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="testapi.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/testapi.php">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="PHP Script.testapi.php" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="0a2c886a-1b56-4124-8835-dec5b7788e19" name="Default Changelist" comment="" />
-      <created>1576040392025</created>
+      <changelist id="65b3aacf-ffaf-4f64-8a04-d74d46674e22" name="Default Changelist" comment="" />
+      <created>1576577604046</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1576040392025</updated>
-      <workItem from="1576040393587" duration="5484000" />
+      <updated>1576577604046</updated>
+      <workItem from="1576577605845" duration="5610000" />
     </task>
-    <task id="LOCAL-00001" summary="test logout">
-      <created>1576041367981</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1576041367987</updated>
-    </task>
-    <task id="LOCAL-00002" summary="test logout">
-      <created>1576041690070</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1576041690070</updated>
-    </task>
-    <task id="LOCAL-00003" summary="test logout">
-      <created>1576065523398</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1576065523404</updated>
-    </task>
-    <task id="LOCAL-00004" summary="test logout">
-      <created>1576066751734</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1576066751737</updated>
-    </task>
-    <task id="LOCAL-00005" summary="test logout">
-      <created>1576066942498</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1576066942502</updated>
-    </task>
-    <task id="LOCAL-00006" summary="test logout">
-      <created>1576067525625</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1576067525629</updated>
-    </task>
-    <task id="LOCAL-00007" summary="test logout">
-      <created>1576067980686</created>
-      <option name="number" value="00007" />
-      <option name="presentableId" value="LOCAL-00007" />
-      <option name="project" value="LOCAL" />
-      <updated>1576067980690</updated>
-    </task>
-    <task id="LOCAL-00008" summary="check login">
-      <created>1576068683897</created>
-      <option name="number" value="00008" />
-      <option name="presentableId" value="LOCAL-00008" />
-      <option name="project" value="LOCAL" />
-      <updated>1576068683910</updated>
-    </task>
-    <task id="LOCAL-00009" summary="check login">
-      <created>1576068766866</created>
-      <option name="number" value="00009" />
-      <option name="presentableId" value="LOCAL-00009" />
-      <option name="project" value="LOCAL" />
-      <updated>1576068766866</updated>
-    </task>
-    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -136,11 +82,5 @@
         </entry>
       </map>
     </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="test logout" />
-    <MESSAGE value="check login" />
-    <MESSAGE value="test protect" />
-    <option name="LAST_COMMIT_MESSAGE" value="test protect" />
   </component>
 </project>
