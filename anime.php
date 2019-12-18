@@ -1,8 +1,7 @@
 <?php
 include "settings.php";
 $title = $_GET['title'];
-$title = rawurlencode($title);
-$results = animeSearch($title);
+$results = testAnimeSearch($title);
 ?>
 
 <!DOCTYPE html>

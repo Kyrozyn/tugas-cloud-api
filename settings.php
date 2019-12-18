@@ -1,4 +1,5 @@
 <?php
+require 'vendor/autoload.php';
 $api_host='https://api.jikan.moe/v3/';
 function getSslPage($url) {
     $ch = curl_init();
@@ -13,10 +14,27 @@ function getSslPage($url) {
     return $result;
 }
 
+function getJson($url){
+    $client = new GuzzleHttp\Client();
+    $res = $client->request('GET',$url);
+    return $res->getBody();
+}
+
 function animeSearch($title){
     global $api_host;
     $linktest = $api_host.'search/anime?q='.$title;
     $file = getSslPage($linktest);
     $json = json_decode($file);
     return $json;
+}
+
+function testAnimeSearch($title){
+    global $api_host;
+    $title = rawurlencode($title);
+    $linktest = $api_host.'search/anime?q='.$title;
+    $res = getJson($linktest);
+    $json = json_decode($res);
+    return $json;
+
+
 }
