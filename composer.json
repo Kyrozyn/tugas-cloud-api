@@ -11,6 +11,7 @@
   ],
   "require": {
     "guzzlehttp/guzzle": "6.5.0",
-    "ext-curl": "*"
+    "ext-curl": "*",
+    "ext-json": "*"
   }
 }

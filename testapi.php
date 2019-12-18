@@ -1,5 +1,5 @@
 <?php
 include "settings.php";
 $title = 'anohana';
-$json = testAnimeSearch($title);
+$json = animeSearch($title);
 print_r($json);

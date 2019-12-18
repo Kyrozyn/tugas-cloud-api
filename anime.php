@@ -1,7 +1,7 @@
 <?php
 include "settings.php";
 $title = $_GET['title'];
-$results = testAnimeSearch($title);
+$results = animeSearch($title);
 ?>
 
 <!DOCTYPE html>
