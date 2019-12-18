@@ -4,7 +4,14 @@ $api_host='https://api.jikan.moe/v3/';
 
 function getJson($url){
     $client = new GuzzleHttp\Client();
-    $res = $client->request('GET',$url);
+    try{
+        $res = $client->request('GET',$url);
+    }
+    catch (Exception $e){
+        echo "Error : ".$e->getMessage();
+        die();
+    }
+
     return $res->getBody();
 }
 

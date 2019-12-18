@@ -80,6 +80,7 @@
                                 </div>
                             </div>
                         </div>
+                        <div class="col-md-6" >
                         <div class="row" style="padding-top: 50px">
                             <div class="summary">
                                 <h4>Opening Themes</h4>
@@ -88,13 +89,14 @@
                                         echo $no.". ".$op."<br>";
                                     }?></p>
                             </div>
-                            <div class="summary">
+                            <div class="summary" style="padding-left: 20px">
                                 <h4>Ending Themes</h4>
                                 <p><?php foreach ($results->ending_themes as $no => $op){
                                         $no = $no+1;
                                         echo $no.". ".$op."<br>";
                                     }?></p>
                             </div>
+                        </div>
                         </div>
                     </div>
                 </div>
