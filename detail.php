@@ -48,6 +48,17 @@
                                     <h6><?php echo $results->type?> : <?php echo $results->duration?></h6>
                                     <h6><b><?php echo $results->premiered?></b></h6>
                                     <h6><?php echo $results->rating?></h6>
+                                    <h6><?php
+                                        $k = "";
+                                        $len = count($results->genres);
+                                        foreach($results->genres as $i => $r){
+                                            $ty = ", ";
+                                            if ($i == $len - 1) {
+                                                $ty="";
+                                            }
+                                            $k=$k.$r->name.$ty;
+                                        }
+                                    echo $k;?></h6>
                                     <div class="price">
                                         <h3><?php echo $results->score?>★</h3>
                                     </div>
@@ -69,8 +80,21 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="row">
-                            adonownvwiognodgiwdn
+                        <div class="row" style="padding-top: 50px">
+                            <div class="summary">
+                                <h4>Opening Themes</h4>
+                                <p><?php foreach ($results->opening_themes as $no => $op){
+                                    $no = $no+1;
+                                        echo $no.". ".$op."<br>";
+                                    }?></p>
+                            </div>
+                            <div class="summary">
+                                <h4>Ending Themes</h4>
+                                <p><?php foreach ($results->ending_themes as $no => $op){
+                                        $no = $no+1;
+                                        echo $no.". ".$op."<br>";
+                                    }?></p>
+                            </div>
                         </div>
                     </div>
                 </div>
