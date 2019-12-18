@@ -1,10 +1,22 @@
+<?php
+    include "settings.php";
+    $id = $_GET['id'];
+    if(!empty($id)){
+        $results = detailAnime($id);
+    }
+    else{
+        header("Location: index.php");
+    }
+
+?>
+
 <!DOCTYPE html>
 <html>
 
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Product - NimeSearch</title>
+    <title>Detail <?php echo $results->title?> - NimeSearch</title>
     <meta name="description" content="Cari Anime">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=a771b732ae1741b5fa481f15fcbaa313">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -18,7 +30,7 @@
             <div class="collapse navbar-collapse"
                 id="navcol-1">
                 <ul class="nav navbar-nav ml-auto">
-                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php"></a></li>
+                    <li class="nav-item" role="presentation"><a class="nav-link" href="index.php">Home</a></li>
                 </ul>
             </div>
         </div>
@@ -29,19 +41,36 @@
                 <div class="block-content">
                     <div class="product-info">
                         <div class="row">
-                            <div class="col-md-6"><img src="assets/img/avatars/avatar3.jpg?h=4c77b34bb68eaede08fdd5dfec8752b0" width="100%"></div>
+                            <div class="col-md-6" ><img src="<?php echo $results->image_url?>" width="100%"></div>
                             <div class="col-md-6">
                                 <div class="info">
-                                    <h3>Lorem Ipsum</h3>
+                                    <h3><?php echo $results->title?></h3>
+                                    <h6><?php echo $results->type?> : <?php echo $results->duration?></h6>
+                                    <h6><b><?php echo $results->premiered?></b></h6>
+                                    <h6><?php echo $results->rating?></h6>
                                     <div class="price">
-                                        <h3>$300.00</h3>
+                                        <h3><?php echo $results->score?>★</h3>
                                     </div>
                                     <div class="summary">
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec augue nunc, pretium at augue at, convallis pellentesque ipsum. Vestibulum diam risus, sagittis at fringilla at, pulvinar vel risus. Vestibulum dignissim
-                                            eu nulla eu imperdiet. Morbi mollis tellus a nunc vestibulum consequat. Quisque tristique elit et nibh dapibus sodales. Nam sollicitudin a urna sed iaculis.</p>
+                                        <h4>Synopsis</h4>
+                                        <p><?php echo $results->synopsis?></p>
+                                    </div>
+                                    <div class="summary">
+                                        <h4>Background</h4>
+                                        <p><?php
+                                            if(!empty($results->background)){
+                                                echo $results->background;
+                                            }
+                                            else{
+                                                echo "-";
+                                            }
+                                            ?></p>
                                     </div>
                                 </div>
                             </div>
+                        </div>
+                        <div class="row">
+                            adonownvwiognodgiwdn
                         </div>
                     </div>
                 </div>

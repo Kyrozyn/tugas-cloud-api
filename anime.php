@@ -10,7 +10,7 @@ $results = animeSearch($title);
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-    <title>Home - NimeSearch</title>
+    <title><?php echo $title?> - NimeSearch</title>
     <meta name="description" content="Cari Anime">
     <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css?h=a771b732ae1741b5fa481f15fcbaa313">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i">
@@ -38,9 +38,8 @@ $results = animeSearch($title);
                     if(!empty($results->results)){
                         foreach ($results->results as $res) {
                             ?>
-
                             <div class="col-sm-6 col-lg-4" style="margin-top: 15px;">
-                                <div class="card clean-card text-center"><a href="#"><img class="card-img-top w-100 d-block"
+                                <div class="card clean-card text-center"><a href="detail.php?id=<?php echo $res->mal_id?>"><img class="card-img-top w-100 d-block"
                                                                               src="<?php echo $res->image_url?>"></a>
                                     <div class="card-body info">
                                         <h4 class="card-title"><?php echo $res->title?></h4>
@@ -48,7 +47,6 @@ $results = animeSearch($title);
                                     </div>
                                 </div>
                             </div>
-
                             <?php
                         }
                     }

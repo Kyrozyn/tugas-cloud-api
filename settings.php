@@ -16,3 +16,11 @@ function animeSearch($title){
     $json = json_decode($res);
     return $json;
 }
+
+function detailAnime($id){
+    global $api_host;
+    $link = $api_host.'anime/'.$id;
+    $res = getJson($link);
+    $json = json_decode($res);
+    return $json;
+}
